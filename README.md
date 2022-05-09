@@ -15,19 +15,30 @@ Parts:
      
  Wiring to ESP-32:
   LED Matrix --> ESP-32:
-              ESP-32
-    | R1  G1  | R1 -> IO25 G1 -> IO26 
-    | B1  GND | B1 -> IO27 
-    | R2  G2  | R2 -> IO14 G2 -> IO12 
-    | B2  E   | B2 -> IO13 E -> IO 
-    | A   B   | A -> IO23 B -> IO19 
-    | C   D   | C -> IO05 D -> IO17 
-    | CLK LAT | CLK -> IO16 LAT -> IO 4
-    | OE  GND | OE -> IO15 GND -> ESP32 GND
-  IR reciever --> ESP-32:
-    |Signal| -> IO33
-    | Vcc  | -> ESP32 3.3V
-    | GND  | -> ESP32 GND
+
+| R1  G1  | R1 -> IO25 G1 -> IO26 
+    
+| B1  GND | B1 -> IO27 
+
+| R2  G2  | R2 -> IO14 G2 -> IO12 
+
+| B2  E   | B2 -> IO13 E -> IO 
+
+| A   B   | A -> IO23 B -> IO19 
+
+| C   D   | C -> IO05 D -> IO17 
+
+| CLK LAT | CLK -> IO16 LAT -> IO 4
+
+| OE  GND | OE -> IO15 GND -> ESP32 GND
+
+IR reciever --> ESP-32:
+
+|Signal| -> IO33
+
+| Vcc  | -> ESP32 3.3V
+
+| GND  | -> ESP32 GND
  
  Powering the ESP-32:
   A standard Micro-USB plugged into a wall outlet using a standard USB wall     adapter
