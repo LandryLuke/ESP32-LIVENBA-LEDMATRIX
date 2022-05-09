@@ -15,7 +15,7 @@ Parts:
      
  Wiring to ESP-32:
   LED Matrix --> ESP-32:
-    HUB 75 PANEL ESP 32 PIN +----------+ 
+              ESP-32
     | R1  G1  | R1 -> IO25 G1 -> IO26 
     | B1  GND | B1 -> IO27 
     | R2  G2  | R2 -> IO14 G2 -> IO12 
