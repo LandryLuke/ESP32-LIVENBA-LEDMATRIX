@@ -57,6 +57,8 @@ Parts:
  Powering LED Matrix:
   Using 5V power adapter.
     
+ TO OBTAIN GAME ID:
  
+ Use the python code to find the game id's for a given date.
  
       
