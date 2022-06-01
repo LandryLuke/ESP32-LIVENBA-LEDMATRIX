@@ -59,6 +59,6 @@ Parts:
     
  TO OBTAIN GAME ID:
  
- Use the python code to find the game id's for a given date.
+ Use the python script to find the game id's for a given date.
  
       
